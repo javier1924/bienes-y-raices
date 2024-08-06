@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Logo img {
+    width: 350px;
+}
+
+.DarkModeImg {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 7vh;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header {
+    background-color: #282828;
+    color: white;
+    padding: 5px;
+}
+
+.Barra {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right:5rem;
+}
+
+.Barra li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.Barra a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.Estoy {
+    background-color: #f0f0f042;
+    border-radius: 10px;
+}
+
+.Barra li:hover {
+    scale: 1.15;
+}
+
+.Barra li a:hover {
+    transition: 0.5s;
+    background-color: #f0f0f042;
+    border-radius: 10px;
+}
+
+.Encabezado {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vh;
+    margin: 5vh 35px;
+}
+
+.CasasYDepas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10vh;
+}
+
+.MuestraCasa {
+    background-color: #f0f0f0;
+    margin: 1rem;
+    transition: 0.2s;
+    flex: 1 1 100px;
+}
+
+.MuestraCasa:hover {
+    scale: 1.02;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.ImgCasa {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.ImgCasa:hover {
+    border-radius: 10px 10px 0 0;
+    transition: 0.2s;
+}
+
+.Info {
+    margin: 1rem;
+}
+
+.NomCasa {
+    margin: 10px;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.DescCasa {
+    font-size: 15px;
+}
+
+.Precio {
+    color: #46ba39;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.Iconos {
+    display: flex;
+    margin: 0 10px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+}
+
+.Iconos figure {
+    display: flex;
+    padding: 15px;
+}
+
+.Icono {
+    width: 20px;
+    height: 20px;
+    padding-right: 6px;
+}
+
+.BttnVerPropiedad {
+    display: flex;
+    justify-content: center;
+}
+
+.BttnVerPropiedad button {
+    width: 100%;
+    color: white;
+    background-color: #d8811d;
+    border-style: none;
+    padding: 8px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem 1.5rem;
+}
+
+.Derechos {
+    margin-top: 15px;
+}
+
+.Menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Menu li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.Menu li:hover {
+    scale: 1.15;
+}
+
+.Menu li a:hover {
+    transition: 0.5s;
+    background-color: #f0f0f042;
+    border-radius: 10px;
+}
